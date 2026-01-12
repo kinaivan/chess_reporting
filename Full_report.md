@@ -1,4 +1,4 @@
-# Chess report for kinaivan
+# Chess Report for Kinaivan
 
 Total 15|10 games: 7
 
@@ -44,9 +44,10 @@ Total 15|10 games: 7
 - **Result for kinaivan**: loss (raw: resigned)
 - **Commentary**: (none)
 
+
 ## Game 7
 
 - **Opponent**: sisobasa
 - **Ratings**: kinaivan (1605) vs sisobasa (1546)
 - **Result for kinaivan**: loss (raw: checkmated)
-- **Commentary**: (none)
+- **Commentary**: The loss mainly came from move 68 (you played Rg5), which dropped the evaluation from -3.1 to -100.0 (about a 96.9-pawn blunder).
