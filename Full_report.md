@@ -1,4 +1,4 @@
-# Chess report for kinaivan
+# Chess Report for Kinaivan
 
 Total 15|10 games: 7
 
@@ -7,14 +7,14 @@ Total 15|10 games: 7
 - **Opponent**: XB40
 - **Ratings**: kinaivan (1604) vs XB40 (1593)
 - **Result for kinaivan**: loss (raw: resigned)
-- **Commentary**: **Wins**
+- **Commentary**:
 
 ## Game 2
 
 - **Opponent**: Krioled
 - **Ratings**: kinaivan (1596) vs Krioled (1602)
 - **Result for kinaivan**: loss (raw: resigned)
-- **Commentary**: **Losses**
+- **Commentary**:
 
 ## Game 3
 
