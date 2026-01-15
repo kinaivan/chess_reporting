@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>Chess Strategy for Club Players</title>
+    <link rel="stylesheet" href="page-template.xpgt" type="application/adobe-page-template+xml"/>
+    
+  <link rel="stylesheet" type="text/css" href="../stylesheet.css"/>
+<link rel="stylesheet" type="text/css" href="../page_styles.css"/>
+<link rel="stylesheet" type="text/css" href="../fonts.css"/>
+</head>
+  <body id="E9OE0-73c9380708114edd9d4424b163e2e44e" class="calibre">
+<div class="booksection">
+<p class="chap"><b class="calibre1">Chapter 10</b></p>
+<p class="chap1"><b class="calibre1">The pawn islands theory</b></p>
+<p class="level"><b class="calibre1">10.1 Introduction</b></p>
+<p class="noindent"><a id="vel196" class="calibre3"></a>In the table with ‘Steinitz’s Elements’, the ‘weak pawn’ and the ‘passed pawn’ are labelled as strategic factors. We have seen how a player can ‘tack’ against weak pawns, and about the passed pawn we know that Aron Nimzowitsch spoke of the ‘lust to expand’ of this smallest chess piece. In this chapter we will deal with the ‘pawn islands theory’, with which we mean the following.</p>
+<p class="noindent1"><b class="calibre1">Definition:</b></p>
+<p class="noindent"><i class="calibre4">The player who has the fewest pawn islands, has the advantage.</i></p>
+<p class="noindent">It is important to define what we mean by a pawn island.</p>
+<p class="noindent"><b class="calibre1">Definition:</b></p>
+<p class="noindent"><i class="calibre4">By a pawn island we mean one or more pawns that are connected with each other in one way or another.</i></p>
+<p class="noindent1">A diagram will make a lot of things clear.</p>
+<p class="image"><img src="../images/00286.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">In the next picture, we see four doubled pawns. We can still regard the pawn formations b2, b3 and c2, as well as f3, g2 and g4, as pawn islands, because they show some kinship.</p>
+<p class="image"><img src="../images/00287.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">On the basis of the pawn islands theory, White is strategically better in the first schematic diagram. The reason for this is easy to understand. Because he has fewer pawn islands, he has fewer weaknesses. It is economically sound for pawns to protect each other. If a piece has to take over this protection, it loses activity. The more islands, the greater the possibility of weak pawns.</p>
+<p class="noindent">Since the player with more islands is structurally worse, he has to look for dynamic compensation. If we look for such pawn formations in a database, we can find many games where these dynamic factors play a more important role than the structural disadvantages in the pawn formation. In fact, the pawn islands theory is the chess rule that has the most exceptions.</p>
+<p class="noindent">To keep the picture clear, I have distinguished between the ‘pros’ and ‘cons’. In 10.2 we will see in which cases islands are a disadvantage. In 10.3 we see instances where the side with more pawn islands still gets the better of the play.</p>
+<p class="level"><b class="calibre1">10.2 When are pawn islands disadvantageous?</b></p>
+<p class="noindent">It is useful to formulate a number of criteria in order to reach a correct verdict about a position. In fact, we have to know which features apply if we want to know when a player has problems with his pawn structure. For this purpose, I have investigated a great number of games in order to get an idea of what these problems are. This has enabled me to make the following subdivision:</p>
+<p class="indentv"><b class="calibre1">A) Problems in the middlegame</b></p>
+<p class="indentv"><b class="calibre1">A1) Passive protection by pieces</b></p>
+<p class="indentv"><b class="calibre1">A2) Positional blockade by enemy pieces</b></p>
+<p class="indentv"><b class="calibre1">B) Problems in the endgame</b></p>
+<p class="noindent">I shall illustrate these cases with the help of examples.</p>
+<p class="indent1v"><b class="calibre1">A) Problems in the middlegame</b></p>
+<p class="indentv"><b class="calibre1">A1) Passive protection by pieces</b></p>
+<p class="noindent">In a position with mainly major pieces on the board, the side with more pawn islands will often feel the weaknesses in his pawn formation. If the opponent can target these weaknesses, the logical consequence will be that the pawn must be protected by pieces, and, consequently, these pieces become less mobile. It is not surprising that in such cases the other side will often be able to organize an attack on the king. We can see a beautiful illustration in the following example.</p>
+<p class="game2t"><a id="ch10level1" class="calibre3"></a>Svetozar Gligoric</p>
+<p class="game1"><a id="ch10level2" class="calibre3"></a>Paul Keres</p>
+<p class="game2"><a id="ch10level3" class="calibre3"></a>Zurich ct 1953 (28)</p>
+<p class="noindent">In the diagram position we can observe that Black is better according to the pawn islands theory: White has weak pawns on a4 and c3, Black has, at most, one: on e6.</p>
+<p class="image"><img src="../images/00288.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">Since White has to defend the weak pawns with his pieces, he is forced into a passive role, and Black can comfortably prepare an attack on the white king.</p>
+<p class="block"><b class="calibre1">1…<span class="chessfont">♕</span>b3!</b></p>
+<p class="noindent">Black activates his queen, which will have its say on the second rank.</p>
+<p class="block"><b class="calibre1">2.<span class="chessfont">♘</span>e2</b></p>
+<p class="noindent">The alternative 2.<span class="chessfont">♕</span>d3 <span class="chessfont">♕</span>b2 3.<span class="chessfont">♖</span>b1 <span class="chessfont">♕</span>a2 4.<span class="chessfont">♕</span>d1 <span class="chessfont">♖</span>g6 5.<span class="chessfont">♘</span>e2 would have been no bed of roses either after 5…<span class="chessfont">♘</span>e4.</p>
+<p class="block"><b class="calibre1">2…<span class="chessfont">♕</span>c2 3.g4?</b></p>
+<p class="noindent">A bad move that hastens White’s downfall, but there is no satisfactory answer to the threat of …<span class="chessfont">♖</span>g6, followed by …<span class="chessfont">♘</span>e4, with which Black slowly mounts the pressure.</p>
+<p class="block"><b class="calibre1">3…fxg4 4.hxg4</b></p>
+<p class="image"><img src="../images/00289.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">4…<span class="chessfont">♖</span>h4</b></p>
+<p class="noindent">Even stronger is 4…<span class="chessfont">♕</span>h7!, when the invasion of the rook, and that of the knight via the e4-square, would be virtually decisive.</p>
+<p class="block"><b class="calibre1">5.<span class="chessfont">♖</span>c1 <span class="chessfont">♕</span>h7!</b></p>
+<p class="noindent"><a id="vel79" class="calibre3"></a>One move later Keres finds the same powerful attacking idea. It is interesting to see how the black queen participates in the attack via both the open h-file and the b1-h7 diagonal. The helpless positions of the white pieces also catch the eye. Since they must protect the weaknesses, they are not capable of dealing with the following blitzkrieg attack.</p>
+<p class="block"><b class="calibre1">6.c4 <span class="chessfont">♖</span>h3 7.<span class="chessfont">♕</span>g2</b></p>
+<p class="image"><img src="../images/00290.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">7…<span class="chessfont">♕</span>d3!</b></p>
+<p class="noindent">The black queen pays another visit. This time it is immediately decisive.</p>
+<p class="block"><b class="calibre1">8.cxd5 <span class="chessfont">♘</span>e4 9.dxe6 <span class="chessfont">♕</span>e3+ 10.<span class="chessfont">♔</span>f1 <span class="chessfont">♖</span>f3+</b></p>
+<p class="rights"><b class="calibre1">0-1</b></p>
+<p class="noindent">The white player in the previous fragment was defeated by a lack of activity of his own pieces, whereas we could see that the black pieces cooperated well.</p>
+<p class="indent1v"><b class="calibre1">A2) Positional blockade by enemy pieces</b></p>
+<p class="noindent"><a id="vel197" class="calibre3"></a>If a pawn structure is blockaded by enemy pieces, this will mean that the prospects for the defender are not so rosy. Nimzowitsch, our teacher of days past, has bequeathed to us his famous ‘blockade strategy’. In simple words, his theory boils down to the fact that it is very pleasant if we can blockade the enemy’s pawn formation with pieces. If your pawns cannot move forward, in practice this will mostly imply that your pieces will be forced into a defensive role and will be craving for activity. If we translate this into the pawn islands theory, we see that in general the side with the most islands is in greater danger of being blockaded. This is because he has fewer pawns at his disposal to remove a possible blockade. We can see the advantages of a blockade in the following example:</p>
+<p class="game2t"><a id="ch10level4" class="calibre3"></a>Ivan Manolov</p>
+<p class="game1"><a id="ch10level5" class="calibre3"></a>Patrick Levacic 2265</p>
+<p class="game2"><a id="ch10level6" class="calibre3"></a>Burgas 1991 (2)</p>
+<p class="image"><img src="../images/00291.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">Prior to this fragment White, following Nimzowitsch’s blockade strategy, has given up his central pawns with d4xc5 and e5xf6, in order to control the d4- and e5-squares with his pieces. In the diagram position it becomes clear that he has built up a splendid blockade on the dark squares in the centre. The white knights have a firm grip on the position and they cannot readily be driven away by the black pieces. As the black pawns on e6 and d5 are kept under control, Black misses the dynamism that he should have in compensation for the positional defect in his pawn structure. In the following, the gravity of Black’s problems is made clear.</p>
+<p class="block"><b class="calibre1">1.<span class="chessfont">♘</span>g4! <span class="chessfont">♕</span>g6</b></p>
+<p class="noindent">If Black offers the exchange of queens with 1…<span class="chessfont">♕</span>f4, he will land in a hopeless endgame where the weaknesses will soon make themselves felt, as is illustrated by the line 2.<span class="chessfont">♕</span>xf4 <span class="chessfont">♖</span>xf4 3.<span class="chessfont">♘</span>d4, and White wins material.</p>
+<p class="block"><b class="calibre1">2.<span class="chessfont">♘</span>d4 <span class="chessfont">♗</span>e8</b></p>
+<p class="noindent">Also after 2…h5 3.<span class="chessfont">♘</span>e5 <span class="chessfont">♕</span>f6 4.f4!, White is pulling the strings.</p>
+<p class="image"><img src="../images/00292.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">3.f3</b></p>
+<p class="noindent">The only active black piece is pushed from its pedestal.</p>
+<p class="block"><b class="calibre1">3…<span class="chessfont">♘</span>g5 4.h4 h5</b></p>
+<p class="noindent">This move loses material, but the game would also have been over after a knight move. The pawn on e6 will fall, and with it Black’s position collapses.</p>
+<p class="block"><b class="calibre1">5.<span class="chessfont">♘</span>e5 <span class="chessfont">♘</span>h3+ 6.<span class="chessfont">♔</span>h2 <span class="chessfont">♕</span>f6 7.<span class="chessfont">♔</span>xh3</b></p>
+<p class="rights"><b class="calibre1">1-0</b></p>
+<p class="noindent1">We have seen here that the occupation of the centre with pawns is not always a goal in itself. What is more: White has given up his two centre pawns in order to build up a complete blockade on the dark squares in the centre. The black pieces had to protect the weak pawns and could not improve themselves, because the white knights on the d4- and e5-squares played a very dominant role.</p>
+<p class="noindent1">In the following instructive example we can see that a tactically well-versed player like Tal was also capable of manoeuvring against an enemy pawn structure:</p>
+<p class="game2t"><a id="ch10level7" class="calibre3"></a>Mikhail Tal</p>
+<p class="game1"><a id="ch10level8" class="calibre3"></a>Robert Byrne 2510</p>
+<p class="game2"><a id="ch10level9" class="calibre3"></a>Moscow 1971 (4)</p>
+<p class="image"><img src="../images/00293.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">1.<span class="chessfont">♕</span>d3!</b></p>
+<p class="noindent">A multifunctional move. First of all White focuses on the weak pawn at d6, trying to induce it to move forward. If Black is forced to push …d6-d5 and White can keep the e5-square blocked, then the black bishop will lose a great deal of its activity.</p>
+<p class="noindent">The second intention of the text move is to attack the pawn on a6, and the third idea is to shield White’s own kingside with <span class="chessfont">♕</span>d3-g3. Finally, White wants to make the knight move <span class="chessfont">♘</span>d2-c4 possible – another reason to move the queen away, ruling out the pawn fork.</p>
+<p class="block"><b class="calibre1">1…<span class="chessfont">♕</span>f7</b></p>
+<p class="noindent">According to Tal, Black should have preferred 1…<span class="chessfont">♗</span>c8.</p>
+<p class="block"><b class="calibre1">2.<span class="chessfont">♕</span>g3!</b></p>
+<p class="noindent">Obviously, Tal does not exchange the f2-pawn for the d6-pawn, even though this would not be a bad decision according to the pawn islands theory! His king would then be in danger, whereas after the text move he has a tangible positional advantage and Black does not obtain any counterplay.</p>
+<p class="block"><b class="calibre1">2…<span class="chessfont">♕</span>f5</b></p>
+<p class="noindent">Also after 2…<span class="chessfont">♕</span>f4 3.<span class="chessfont">♕</span>xf4 <span class="chessfont">♖</span>xf4 4.<span class="chessfont">♘</span>e4 d5 5.<span class="chessfont">♘</span>c5, White has a big advantage, since he has managed to block the enemy pawns on the – for Black – wrong colour.</p>
+<p class="block"><b class="calibre1">3.<span class="chessfont">♘</span>c4!?</b></p>
+<p class="noindent">3.<span class="chessfont">♘</span>f3 was another (good) idea.</p>
+<p class="block"><b class="calibre1">3…d5</b></p>
+<p class="noindent">This ‘suicidal push’ is more or less forced, as Black would also be in very bad shape after 3…<span class="chessfont">♕</span>xc2 4.<span class="chessfont">♖</span>d2, followed by 5.<span class="chessfont">♘</span>xd6.</p>
+<p class="block"><b class="calibre1">4.<span class="chessfont">♘</span>e3</b></p>
+<p class="noindent">The knight cannot go to the beautiful e5-square just yet, as then Black would take on c2.</p>
+<p class="block"><b class="calibre1">4…<span class="chessfont">♕</span>f4?!</b></p>
+<p class="image"><img src="../images/00294.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">In principle Black would have done better to keep the queens on the board. In the ensuing endgame he has no chance.</p>
+<p class="block"><b class="calibre1">5.<span class="chessfont">♘</span>g4!</b></p>
+<p class="noindent">White now exchanges the queens in even more favourable circumstances.</p>
+<p class="block"><b class="calibre1">5…<span class="chessfont">♕</span>xg3 6.hxg3 <span class="chessfont">♔</span>f7 7.c4 <span class="chessfont">♗</span>e8</b></p>
+<p class="image"><img src="../images/00295.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">8.<span class="chessfont">♖</span>d4</b></p>
+<p class="noindent"><a id="vel481" class="calibre3"></a>Tal himself thought that 8.<span class="chessfont">♘</span>e5+ was the correct continuation. After 8…<span class="chessfont">♔</span>e7 9.<span class="chessfont">♖</span>d4 c5 10.<span class="chessfont">♖</span>g4 <span class="chessfont">♖</span>g8 11.cxd5 <span class="chessfont">♖</span>xd5 12.<span class="chessfont">♘</span>f3, he claims that Black is positionally bankrupt.</p>
+<p class="noindent">That is quite questionable. In earlier chapters we have been able to see that an endgame of good knight versus bad bishop is almost always very promising for the side with the knight. The power of the knight increases when more pawns are fixed on the – for White – right colour.</p>
+<p class="noindent">Presumably, 8.c5 was the best continuation here, possibly followed by f2-f4.</p>
+<p class="block"><b class="calibre1">8…c5</b></p>
+<p class="noindent">This attempt to become active will backfire on Black, but otherwise White could have established a complete blockade with 9.c5 after all. Another winning plan for White consists of exchanging on d5 and then switching the rook to the queenside via d4.</p>
+<p class="block"><b class="calibre1">9.<span class="chessfont">♖</span>d2</b></p>
+<p class="noindent">Better than 9.<span class="chessfont">♖</span>f4+?!, which would quite unnecessarily give Black counterchances with 9…<span class="chessfont">♔</span>g8 10.<span class="chessfont">♖</span>xe6 <span class="chessfont">♖</span>xf4 11.gxf4 dxc4 12.<span class="chessfont">♖</span>xa6 c3.</p>
+<p class="block"><b class="calibre1">9…d4 10.<span class="chessfont">♖</span>de2 <span class="chessfont">♖</span>d6 11.<span class="chessfont">♘</span>e5+ <span class="chessfont">♔</span>e7 12.<span class="chessfont">♘</span>d3 <span class="chessfont">♖</span>f5 13.g4! <span class="chessfont">♖</span>g5</b></p>
+<p class="image"><img src="../images/00296.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">The rook is now caught in broad daylight, and the win is not far off.</p>
+<p class="block"><b class="calibre1">14.<span class="chessfont">♘</span>e5 d3 15.<span class="chessfont">♖</span>d2</b></p>
+<p class="noindent">Also possible was 15.<span class="chessfont">♘</span>xd3 <span class="chessfont">♖</span>xg4 16.<span class="chessfont">♘</span>xc5, with a decisive advantage.</p>
+<p class="block"><b class="calibre1">15…<span class="chessfont">♖</span>d4</b></p>
+<p class="image"><img src="../images/00297.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">16.g3!</b></p>
+<p class="noindent"><a id="vel482" class="calibre3"></a>This prepares 17.f4, compelling Black to give up the exchange. Tal finishes the job without trouble.</p>
+<p class="block"><b class="calibre1">16…h5 17.f4 <span class="chessfont">♖</span>xg4 18.<span class="chessfont">♘</span>xg4 hxg4 19.f5 <span class="chessfont">♗</span>c6 20.<span class="chessfont">♖</span>xe6+ <span class="chessfont">♔</span>d7 21.<span class="chessfont">♖</span>g6 <span class="chessfont">♗</span>e4 22.<span class="chessfont">♖</span>xg7+ <span class="chessfont">♔</span>d6 23.f6</b></p>
+<p class="rights"><b class="calibre1">1-0</b></p>
+<p class="indent1v"><b class="calibre1">B) Problems in the endgame</b></p>
+<p class="noindent">The previous fragments showed a clear pattern. In general, the fewer pieces there are on the board, the better it is for the player with the fewer pawn islands. This sounds logical, since the player with the most islands, and consequently the most weaknesses, has to search for active piece play. In practice, the fewer pieces he has at his disposal, the less counterplay he will have.</p>
+<p class="noindent"><a id="ch10inlevel1" class="calibre3"></a>In the Tal-Byrne fragment we saw how the white player managed to blockade the enemy centre in the middlegame, enabling him to comfortably liquidate to the endgame, where the weaknesses made themselves felt.</p>
+<p class="noindent">In the following fragment we see a flawless technical achievement by Keres, who succeeds in exploiting a few positional advantages in a bishop ending.</p>
+<p class="game2t"><a id="ch10level10" class="calibre3"></a>Vasily Smyslov</p>
+<p class="game1"><a id="ch10level11" class="calibre3"></a>Paul Keres</p>
+<p class="game2"><a id="ch10level12" class="calibre3"></a>Moscow ch-URS 1951 (14)</p>
+<p class="image"><img src="../images/00298.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">In this position Black clearly has the better prospects.</p>
+<p class="noindent">The advantages are:</p>
+<ul class="calibre8">
+<li class="calibre7">According to the pawn islands theory, White has more weak pawns than Black. Because of the pawn on e3 White is forced to concede the beautiful e5-square to his opponent, to which the black king can be played;</li>
+<li class="calibre7">As the white pawns on the queenside are on the colour of his bishop, and they can be more or less fixed there, Black can reduce the activity of the enemy bishop to a minimum.</li>
+</ul>
+<p class="block"><b class="calibre1">1…<span class="chessfont">♗</span>b1 2.a3 a5!</b></p>
+<p class="noindent">Keres prevents the possibility of 3.b4, forcing White to continue with weak pawns on b3 and c4.</p>
+<p class="block"><b class="calibre1">3.<span class="chessfont">♗</span>d1 <span class="chessfont">♔</span>g6 4.<span class="chessfont">♔</span>g2 <span class="chessfont">♔</span>f5 5.<span class="chessfont">♔</span>f3 <span class="chessfont">♔</span>e5</b></p>
+<p class="noindent">The black king has landed on the ideal square, and now Keres can comfortably figure out how to make progress. At this point the game was adjourned, and the interim analysis produced the following standard winning plan:</p>
+<ul class="calibre8">
+<li class="calibre7">Stage 1: Since White does not have any bishop moves that do not lose a pawn, Black can push his kingside pawns unhindered with …g7-g5 and …f6-f5.</li>
+<li class="calibre7">Stage 2: At the right moment, Black plays …f5-f4, conquering the d4- or f4-square for his king.</li>
+<li class="calibre7">Stage 3: From one of these squares, the king threatens to invade either on the kingside or on the queenside, so that White cannot avoid material loss in the long run.</li>
+</ul>
+<p class="image"><img src="../images/00299.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">6.a4 g5 7.<span class="chessfont">♔</span>e2?!</b></p>
+<p class="image"><img src="../images/00300.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">7…<span class="chessfont">♗</span>f5!</b></p>
+<p class="noindent"><a id="vel81" class="calibre3"></a>Keres abandons the winning plan outlined above, because he sees that in these circumstances he can force a quicker win with a different plan.</p>
+<p class="block"><b class="calibre1">8.g4</b></p>
+<p class="noindent">Out of dire necessity, White has to put another pawn on the wrong colour. The point of Black’s switch was that after 8.h4 <span class="chessfont">♗</span>g4+, the pawn ending would be hopeless for White.</p>
+<p class="block"><b class="calibre1">8…<span class="chessfont">♗</span>b1 9.<span class="chessfont">♔</span>f3 f5 10.gxf5</b></p>
+<p class="noindent">If White tries to postpone this swap, he will lose even more quickly: 10.<span class="chessfont">♔</span>e2 f4 11.<span class="chessfont">♔</span>f3 fxe3 12.<span class="chessfont">♔</span>xe3 <span class="chessfont">♗</span>e4, and White is in zugzwang.</p>
+<p class="block"><b class="calibre1">10…<span class="chessfont">♔</span>xf5 11.<span class="chessfont">♔</span>f2 <span class="chessfont">♗</span>e4</b></p>
+<p class="noindent">The logical 11…<span class="chessfont">♔</span>e4 does not lead to the desired result, as White has the simple 12.<span class="chessfont">♗</span>h5. With the text move Black deprives the white king of the f3-square, and with …<span class="chessfont">♔</span>g6 he will prepare the …h6-h5 push.</p>
+<p class="block"><b class="calibre1">12.<span class="chessfont">♔</span>g3 <span class="chessfont">♔</span>g6 13.<span class="chessfont">♔</span>f2</b></p>
+<p class="noindent">After 13.h4 Keres demonstrates that with 13…h5! 14.<span class="chessfont">♔</span>h3 <span class="chessfont">♗</span>d3 15.<span class="chessfont">♔</span>g3 <span class="chessfont">♗</span>f5!, White would end up in zugzwang again. So he must exchange on g5, after which the h-pawn will easily decide the issue. After the text move, a new weakness is fixed on h3.</p>
+<p class="block"><b class="calibre1">13…h5 14.<span class="chessfont">♔</span>g3 h4+ 15.<span class="chessfont">♔</span>f2 <span class="chessfont">♗</span>f5 16.<span class="chessfont">♔</span>g2 <span class="chessfont">♔</span>f6</b></p>
+<p class="noindent">Now that the white king is tied to the new weakness, a king march through the centre will decide the game.</p>
+<p class="block"><b class="calibre1">17.<span class="chessfont">♔</span>h2</b></p>
+<p class="image"><img src="../images/00301.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">17…<span class="chessfont">♔</span>e6!</b></p>
+<p class="rights"><b class="calibre1">0-1</b></p>
+<p class="noindent">A final subtlety. After the forced 18.<span class="chessfont">♔</span>g2 <span class="chessfont">♔</span>e5 19.<span class="chessfont">♔</span>h2, 19…<span class="chessfont">♗</span>b1! wins: 20.<span class="chessfont">♔</span>g2 <span class="chessfont">♔</span>e4 21.<span class="chessfont">♔</span>f2 <span class="chessfont">♔</span>d3, and the black king enters the position decisively.</p>
+<p class="level"><b class="calibre1">10.3 When are pawn islands useful?</b></p>
+<p class="noindent">A more aggressively inclined player who has studied the above examples carefully might just be in anguish now, when he sits down at the board.</p>
+<p class="noindent">Should he watch his pawn structure extremely carefully and forget about his usual keen eye for piece play and mating attacks? Is it time to put his offensive aspirations on hold as soon as he has sinned against the strategic laws, albeit ever so slightly?</p>
+<p class="noindent">Fortunately, no. This section also contains good news for the attacking player. The player with the greater number of pawn islands must search for active piece play in order to compensate for his positional defects. He should strive to keep as many pieces on the board as possible. He should never forget that piece activity is the most important of all. A healthy pawn structure does not bring universal happiness; not if you are faced with a dangerous attack.</p>
+<p class="noindent">In the pawn formation of the schematic diagram (on the first page of this chapter) we can not only point at drawbacks for the player with the most pawn islands. This pawn formation also harbours chances for him. If we assume that White has castled, the f-file will give him attacking chances in certain situations.</p>
+<p class="noindent">The trick in the following diagram will appeal to these ‘former’ tacticians.</p>
+<p class="game2t"><a id="ch10level13" class="calibre3"></a>Alexander Shabalov</p>
+<p class="game1"><a id="ch10level14" class="calibre3"></a>Alvis Vitolinsh 2410</p>
+<p class="game2"><a id="ch10level15" class="calibre3"></a>Jurmala 1985 (9)</p>
+<p class="image"><img src="../images/00302.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">Optically speaking, things have gotten a little out of hand for Black. He is weak on the dark squares in the centre, he has three pawn islands and his pieces do not cooperate. But one factor works in his favour: the f-file!</p>
+<p class="block"><b class="calibre1">1…<span class="chessfont">♖</span>xf3!?</b></p>
+<p class="noindent">Good or bad, the second player hardly had a choice. The white king position is now irreparably damaged and especially the black knight will suddenly find a beautiful square. The sacrifice has reduced White’s central control and diminished his chances for a blockade.</p>
+<p class="block"><b class="calibre1">2.gxf3 <span class="chessfont">♘</span>d4 3.<span class="chessfont">♖</span>e3 <span class="chessfont">♗</span>d7</b></p>
+<p class="image"><img src="../images/00303.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">4.<span class="chessfont">♔</span>h1?</b></p>
+<p class="noindent">The sudden role reversal causes White to collapse. He should have exchanged the strongly placed knight with 4.<span class="chessfont">♘</span>e2, although after 4…<span class="chessfont">♘</span>xe2+ 5.<span class="chessfont">♗</span>xe2 <span class="chessfont">♕</span>f6 6.c3 <span class="chessfont">♘</span>f4 Black also has (more than) enough compensation for the sacrificed exchange. The king move is based on a miscalculation.</p>
+<p class="block"><b class="calibre1">4…<span class="chessfont">♕</span>h4 5.<span class="chessfont">♔</span>g1</b></p>
+<p class="noindent">Bitter necessity, as the threat of 5…<span class="chessfont">♘</span>g3+ cannot be parried any other way.</p>
+<p class="block"><b class="calibre1">5…<span class="chessfont">♖</span>f8 6.<span class="chessfont">♘</span>e2 <span class="chessfont">♘</span>xf3+ 7.<span class="chessfont">♖</span>xf3</b></p>
+<p class="noindent">White is already compelled to return the material, but still he cannot stop the black attack.</p>
+<p class="block"><b class="calibre1">7…<span class="chessfont">♖</span>xf3 8.<span class="chessfont">♘</span>g3</b></p>
+<p class="image"><img src="../images/00304.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">8…<span class="chessfont">♖</span>xf2!?</b></p>
+<p class="noindent">Black is doing good business along the f-file in this game. The white king is smoked out. Presumably even stronger was 8…<span class="chessfont">♕</span>g4 9.<span class="chessfont">♕</span>d2 <span class="chessfont">♘</span>f4 10.<span class="chessfont">♗</span>f1 <span class="chessfont">♗</span>c6, and dark clouds are gathering over the king’s head.</p>
+<p class="block"><b class="calibre1">9.<span class="chessfont">♔</span>xf2 <span class="chessfont">♕</span>xh2+ 10.<span class="chessfont">♔</span>e3 <span class="chessfont">♕</span>xg3+ 11.<span class="chessfont">♔</span>d2 e5</b></p>
+<p class="noindent">Besides the fact that Black isn’t badly off materially, he can merrily carry on with his initiative.</p>
+<p class="block"><b class="calibre1">12.<span class="chessfont">♖</span>f1?!</b></p>
+<p class="noindent">Here 12.<span class="chessfont">♕</span>e3 was much more persistent, although Black also keeps excellent winning chances after 12…<span class="chessfont">♕</span>xe3+ 13.<span class="chessfont">♔</span>xe3 <span class="chessfont">♘</span>f4.</p>
+<p class="block"><b class="calibre1">12…<span class="chessfont">♘</span>f4</b></p>
+<p class="image"><img src="../images/00305.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">13.<span class="chessfont">♖</span>h1?</b></p>
+<p class="noindent">But after this new mistake, salvation is no longer possible.</p>
+<p class="block"><b class="calibre1">13…<span class="chessfont">♗</span>h3! 14.<span class="chessfont">♔</span>c1 e4</b></p>
+<p class="noindent">The rest speaks for itself.</p>
+<p class="block"><b class="calibre1">15.<span class="chessfont">♗</span>xe4 dxe4 16.<span class="chessfont">♖</span>d1 <span class="chessfont">♘</span>e6 17.<span class="chessfont">♔</span>b1 <span class="chessfont">♘</span>f8 18.<span class="chessfont">♖</span>d8 <span class="chessfont">♕</span>e1+ 19.<span class="chessfont">♔</span>a2 <span class="chessfont">♗</span>e6+ 20.b3 <span class="chessfont">♕</span>f2 21.<span class="chessfont">♖</span>d2 <span class="chessfont">♕</span>f3 22.<span class="chessfont">♕</span>g5 <span class="chessfont">♕</span>c3 23.<span class="chessfont">♖</span>e2 <span class="chessfont">♗</span>f5 24.<span class="chessfont">♔</span>b1 h5 25.<span class="chessfont">♖</span>g2 <span class="chessfont">♕</span>f3 26.<span class="chessfont">♖</span>g3 <span class="chessfont">♘</span>e6</b></p>
+<p class="rights"><b class="calibre1">0-1</b></p>
+<p class="noindent1">Let us return to the problems around the pawn islands theory.</p>
+<p class="noindent">In the previous game we saw the black player make optimal use of the open f-file. Although in a theoretical sense he was saddled with a structural defect, nonetheless he was able to develop maximum activity for his pieces. And herein lies the secret for the player who is confronted with a greater number of pawn islands. He must rely on piece play, on breakthroughs in the centre and on the open files that are available to him.</p>
+<p class="noindent">A frequently-seen pawn formation is the one presented schematically in the following diagram.</p>
+<p class="image"><img src="../images/00306.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">A player with an adventurous nature can allow hanging pawns with a smile. There are opening systems known in theory, for instance in popular openings such as the Queen’s Indian, where these hanging pawns are regular guests, and black players obtain good scores with them. And even though we now know that the player who has more pawn islands should do everything he can to keep as many pieces on the board as possible, he should never despair if the opponent does manage to swap a number of pieces: his chances against the enemy king will always be lurking in the background. The following fragment, between two sworn arch-rivals, illustrates this theme beautifully.</p>
+<p class="game">TD 5.2 (D02)</p>
+<p class="game1"><a id="ch10level16" class="calibre3"></a>Aron Nimzowitsch</p>
+<p class="game1"><a id="ch10level17" class="calibre3"></a>Siegbert Tarrasch</p>
+<p class="game2"><a id="ch10level18" class="calibre3"></a>St Petersburg 1914 (5)</p>
+<p class="block"><b class="calibre1">1.d4 d5 2.<span class="chessfont">♘</span>f3 c5 3.c4 e6 4.e3 <span class="chessfont">♘</span>f6 5.<span class="chessfont">♗</span>d3 <span class="chessfont">♘</span>c6 6.0-0 <span class="chessfont">♗</span>d6 7.b3 0-0 8.<span class="chessfont">♗</span>b2 b6 9.<span class="chessfont">♘</span>bd2 <span class="chessfont">♗</span>b7 10.<span class="chessfont">♖</span>c1 <span class="chessfont">♕</span>e7 11.cxd5 exd5 12.<span class="chessfont">♘</span>h4 g6 13.<span class="chessfont">♘</span>hf3 <span class="chessfont">♖</span>ad8 14.dxc5 bxc5 15.<span class="chessfont">♗</span>b5 <span class="chessfont">♘</span>e4 16.<span class="chessfont">♗</span>xc6 <span class="chessfont">♗</span>xc6 17.<span class="chessfont">♕</span>c2 <span class="chessfont">♘</span>xd2 18.<span class="chessfont">♘</span>xd2</b></p>
+<p class="image"><img src="../images/00307.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">Superficially, White seems to be doing fine. He has already managed to exchange two minor pieces, and now he can prepare to start manoeuvring against Black’s potential weaknesses. For instance, he has the positional threat of 19.b4. Besides, he is dreaming of mates on the long diagonal. But he is in for a rude awakening.</p>
+<p class="block"><b class="calibre1">18…d4!</b></p>
+<p class="noindent">Here we see that the dynamic factors in the position can sometimes completely neutralize the static disadvantages. Black does not bother about his potential weaknesses, but brutally opens up the position so as to commit a heavy assault on the white king.</p>
+<p class="block"><b class="calibre1">19.exd4</b></p>
+<p class="noindent">Perhaps 19.e4 was the appropriate move.</p>
+<p class="image"><img src="../images/00308.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent"><a id="vel134" class="calibre3"></a>The critical moment of the game has arrived. With the following double bishop sacrifice, Tarrasch follows in the footsteps of Emanuel Lasker, who made the same sacrifices in his famous game against Bauer, Amsterdam 1889.</p>
+<p class="block"><b class="calibre1">19…<span class="chessfont">♗</span>xh2+</b></p>
+<p class="noindent">Tarrasch does not beat about the bush. With a piece sacrifice he forces a passage to the white king. A closer look reveals that the other bishop sacrifice 19…<span class="chessfont">♗</span>xg2! would have been even stronger: after 20.<span class="chessfont">♔</span>xg2 <span class="chessfont">♕</span>g5+ 21.<span class="chessfont">♔</span>h1 <span class="chessfont">♕</span>f4 White is forced to return his piece to avoid immediate mate: 22.<span class="chessfont">♘</span>f3, and after 22…<span class="chessfont">♕</span>xf3+ 23.<span class="chessfont">♔</span>g1 cxd4 his position is obviously hopeless. But after 22.<span class="chessfont">♔</span>g2, Black had to have foreseen the brilliant 22…<span class="chessfont">♖</span>fe8!.</p>
+<div class="breakinside">
+<p class="image"><img src="../images/00309.jpeg" alt="images" class="calibre5"/></p>
+<p class="caption">Analysis diagram</p>
+</div>
+<p class="noindent">The rook, among others, takes away the most important escape squares from the white king, and so the threat of …<span class="chessfont">♕</span>xh2+ followed by …<span class="chessfont">♕</span>h3 mate is on the cards. There is no decent defence available, for example: 23.<span class="chessfont">♖</span>h1 <span class="chessfont">♖</span>e2, and now 24.<span class="chessfont">♖</span>cf1 is met by the always quite artistic epaulette mate 24…<span class="chessfont">♕</span>g4.</p>
+<p class="block"><b class="calibre1">20.<span class="chessfont">♔</span>xh2 <span class="chessfont">♕</span>h4+ 21.<span class="chessfont">♔</span>g1 <span class="chessfont">♗</span>xg2!</b></p>
+<p class="noindent">Attacking players will really enjoy this game. Weak pawn islands do not matter at all. It’s the enemy king that’s at stake here!</p>
+<p class="block"><b class="calibre1">22.f3</b></p>
+<p class="noindent">White cannot afford to accept the second bishop sacrifice. After 22.<span class="chessfont">♔</span>xg2 <span class="chessfont">♕</span>g4+ 23.<span class="chessfont">♔</span>h2 <span class="chessfont">♖</span>d5, the mate can only be averted at great material loss: 24.<span class="chessfont">♕</span>xc5 <span class="chessfont">♖</span>h5+! 25.<span class="chessfont">♕</span>xh5 <span class="chessfont">♕</span>xh5+ 26.<span class="chessfont">♔</span>g2 <span class="chessfont">♕</span>g5+, and the knight on d2 will also leave the board.</p>
+<p class="image"><img src="../images/00310.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">22…<span class="chessfont">♖</span>fe8!?</b></p>
+<p class="noindent"><a id="vel487" class="calibre3"></a>According to Tarrasch Black could also have opted for 22…<span class="chessfont">♗</span>xf1, but he prefers to go on attacking.</p>
+<p class="block"><b class="calibre1">23.<span class="chessfont">♘</span>e4?</b></p>
+<p class="noindent">Objectively, 23.<span class="chessfont">♖</span>fe1 was the only move to continue the struggle. After 23…<span class="chessfont">♖</span>xe1+ 24.<span class="chessfont">♖</span>xe1 <span class="chessfont">♕</span>xe1+ 25.<span class="chessfont">♔</span>xg2 <span class="chessfont">♕</span>e2+ 26.<span class="chessfont">♔</span>g3 cxd4, Black keeps a clear advantage, but he would still need to prove something. After the text move it’s a piece of cake for Black.</p>
+<p class="block"><b class="calibre1">23…<span class="chessfont">♕</span>h1+ 24.<span class="chessfont">♔</span>f2 <span class="chessfont">♗</span>xf1 25.d5 f5 26.<span class="chessfont">♕</span>c3</b></p>
+<p class="noindent">White was dreaming of this diagonal once. But his dreams were rudely shattered.</p>
+<p class="block"><b class="calibre1">26…<span class="chessfont">♕</span>g2+ 27.<span class="chessfont">♔</span>e3</b></p>
+<p class="noindent">Now Black finishes the job elegantly.</p>
+<p class="block"><b class="calibre1">27…<span class="chessfont">♖</span>xe4+</b></p>
+<p class="noindent">A nice final combination, leading to a forced mate.</p>
+<p class="block"><b class="calibre1">28.fxe4</b></p>
+<p class="image"><img src="../images/00311.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">28…f4+</b></p>
+<p class="noindent">It would have been mate in three after 28…<span class="chessfont">♕</span>g3+ 29.<span class="chessfont">♔</span>d2 <span class="chessfont">♕</span>f2+ 30.<span class="chessfont">♔</span>d1 <span class="chessfont">♕</span>e2#, but the way Tarrasch concludes this game is not bad either.</p>
+<p class="block"><b class="calibre1">29.<span class="chessfont">♔</span>xf4 <span class="chessfont">♖</span>f8+ 30.<span class="chessfont">♔</span>e5 <span class="chessfont">♕</span>h2+ 31.<span class="chessfont">♔</span>e6 <span class="chessfont">♖</span>e8+ 32.<span class="chessfont">♔</span>d7 <span class="chessfont">♗</span>b5#</b></p>
+<p class="rights"><b class="calibre1">0-1</b></p>
+<p class="noindent1">‘Hanging pawns’ do not always result in mating attacks. However, to deal with all the problems connected with this theme would lead us outside the scope of this book. There are more ideas that can be conceived for a player with hanging pawns. We have said before that this player has more space at his disposal to put his pieces in good positions, and often he gets the chance to convert one of his central pawns into a passed pawn. This is an interesting given, which can lead to paradoxical phenomena.</p>
+<p class="noindent">In principle, the player who has to play against the hanging pawns strives to exchange all the minor pieces. With major pieces he can generally exert firm pressure on the enemy position. But supposing he actually manages to realize this general exchange, and suddenly the hanging pawns are converted to a passed pawn?</p>
+<p class="noindent"><a id="vel96" class="calibre3"></a>In the chapter on the passed pawn we have learned that in principle the player who has the passed pawn wants to keep the major pieces on the board! See the game Petrosian-Kortchnoi, Il Ciocco 1977 (page 91).</p>
+<p class="noindent">In short: hanging pawns can lead to an interesting, ambiguous battle.</p>
+<p class="noindent">Another plan which the player with the hanging pawns can follow, is to make use of open files. Former World Champion Bobby Fischer showed how.</p>
+<p class="game2t"><a id="ch10level19" class="calibre3"></a>Mario Bertok</p>
+<p class="game1"><a id="ch10level20" class="calibre3"></a>Robert Fischer</p>
+<p class="game2"><a id="ch10level21" class="calibre3"></a>Stockholm izt 1962 (22)</p>
+<p class="image"><img src="../images/00312.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">A characteristic position. White has already managed to exchange two pieces and prepares to put the question to the hanging pawns. Superficially, it looks as if his chances should be rated more highly, but it is clear that the manoeuvres with the white knight have been a little slow. The white player does not have the slightest clue what he is in for in this position.</p>
+<p class="block"><b class="calibre1">1…c4!</b></p>
+<p class="noindent">A remarkable decision. Black puts his pawns on the wrong colour (that of his bishop) and voluntarily gives up the beautiful central d4-square. In other, similar cases, we would immediately condemn such a pawn move, but here it is justified. With active piece play along the open b-file, combined with the far advanced c-pawn, Fischer succeeds in amply compensating for the positional disadvantages in his position. Due to, among others, the pressure along the b-file, the white pieces will be wrong-footed shortly.</p>
+<p class="block"><b class="calibre1">2.<span class="chessfont">♘</span>f4 <span class="chessfont">♖</span>fb8 3.<span class="chessfont">♖</span>ab1?</b></p>
+<p class="noindent">A critical moment. After the text move White will soon end up in a lost position. Better is 3.<span class="chessfont">♘</span>xe6 fxe6 4.<span class="chessfont">♗</span>g4 <span class="chessfont">♖</span>a6! 5.b3! (5.<span class="chessfont">♕</span>e7? <span class="chessfont">♘</span>f8; 5.<span class="chessfont">♖</span>ab1 <span class="chessfont">♕</span>b4 6.<span class="chessfont">♕</span>c3 <span class="chessfont">♕</span>xc3 7.bxc3 <span class="chessfont">♖</span>ab6) 5…cxb3 6.axb3 <span class="chessfont">♕</span>xb3 7.<span class="chessfont">♕</span>e7 <span class="chessfont">♘</span>f8 8.<span class="chessfont">♖</span>a3 <span class="chessfont">♕</span>b4 with a small edge for Black, as Fischer himself has indicated. This advantage is very marginal, though, as after 9.<span class="chessfont">♕</span>xb4 <span class="chessfont">♖</span>xb4 10.<span class="chessfont">♗</span>e2 <span class="chessfont">♖</span>a7 11.<span class="chessfont">♖</span>fa1 a4 12.<span class="chessfont">♗</span>d1, the position is completely dead.</p>
+<p class="noindent">Another idea is to make an attempt at activity with 3.e4. After 3…<span class="chessfont">♕</span>xb2 4.<span class="chessfont">♕</span>xb2 <span class="chessfont">♖</span>xb2 5.exd5 <span class="chessfont">♗</span>xd5 6.<span class="chessfont">♖</span>fe1 <span class="chessfont">♖</span>e8, however, White has too little compensation for the pawn.</p>
+<p class="block"><b class="calibre1">3…<span class="chessfont">♗</span>f5! 4.<span class="chessfont">♖</span>bd1 <span class="chessfont">♘</span>f6</b></p>
+<p class="image"><img src="../images/00313.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">5.<span class="chessfont">♖</span>d2</b></p>
+<p class="noindent"><a id="ch10inlevel2" class="calibre3"></a>Fischer indicates that 5.<span class="chessfont">♗</span>f3 would not be a solution to the problem in this position. After 5…<span class="chessfont">♕</span>xb2 6.<span class="chessfont">♕</span>xb2 <span class="chessfont">♖</span>xb2 7.<span class="chessfont">♘</span>xd5 <span class="chessfont">♘</span>xd5 8.<span class="chessfont">♗</span>xd5 (in case of 8.<span class="chessfont">♖</span>xd5 <span class="chessfont">♗</span>e6 9.<span class="chessfont">♖</span>c5 <span class="chessfont">♖</span>c8! 10.<span class="chessfont">♖</span>xa5 c3 11.<span class="chessfont">♖</span>c1 c2, the black c-pawn is too strong. A pretty line is: 12.<span class="chessfont">♗</span>e4 <span class="chessfont">♖</span>b1! 13.<span class="chessfont">♖</span>xb1 cxb1<span class="chessfont">♕</span>+ 14.<span class="chessfont">♗</span>xb1 <span class="chessfont">♖</span>c1#) 8…<span class="chessfont">♖</span>c8 9.e4 <span class="chessfont">♗</span>e6! 10.<span class="chessfont">♗</span>xe6 fxe6 11.a4 c3, and the black passed pawn decides.</p>
+<p class="noindent">In the diagram position White is ready for 6.<span class="chessfont">♗</span>f3, followed by the possible knight manoeuvre <span class="chessfont">♘</span>f4-e2-d4, after which he will hold all the positional trumps. Black must be quick, and with his next move he puts a spoke in his opponent’s wheel.</p>
+<p class="block"><b class="calibre1">5…g5!</b></p>
+<p class="noindent">A strong move.</p>
+<p class="block"><b class="calibre1">6.<span class="chessfont">♘</span>xd5</b></p>
+<p class="noindent">This blunders a piece. Necessary was 6.<span class="chessfont">♘</span>h5 <span class="chessfont">♘</span>e4 7.<span class="chessfont">♖</span>c2 <span class="chessfont">♕</span>b4!, maximizing Black’s pressure on the queenside. Not 7…<span class="chessfont">♘</span>xf2? in view of 8.<span class="chessfont">♕</span>c3!, and White wins.</p>
+<p class="block"><b class="calibre1">6…<span class="chessfont">♘</span>xd5 7.<span class="chessfont">♗</span>xc4</b></p>
+<p class="noindent">7.<span class="chessfont">♗</span>f3? is met by 7…<span class="chessfont">♗</span>d3.</p>
+<p class="block"><b class="calibre1">7…<span class="chessfont">♗</span>e6</b></p>
+<p class="noindent">Now White hastens the end with a mistake:</p>
+<p class="image"><img src="../images/00314.jpeg" alt="images" class="calibre5"/></p>
+<p class="block"><b class="calibre1">8.<span class="chessfont">♖</span>fd1?</b></p>
+<p class="noindent">Better was 8.<span class="chessfont">♗</span>xd5 <span class="chessfont">♗</span>xd5 9.f3, but the pawns do not nearly balance the piece. Now it looks as if White can develop counterchances with 9.<span class="chessfont">♕</span>d6, but Black can keep taking pawns unpunished with 9…<span class="chessfont">♗</span>xg2, as after 10.<span class="chessfont">♕</span>xh6 he wins easily with 10…<span class="chessfont">♖</span>a6! 11.<span class="chessfont">♕</span>xg5+ <span class="chessfont">♖</span>g6.</p>
+<p class="block"><b class="calibre1">8…<span class="chessfont">♘</span>xe3! 9.<span class="chessfont">♕</span>xe3</b></p>
+<p class="noindent">Even worse is 9.<span class="chessfont">♗</span>xe6 <span class="chessfont">♕</span>xg2#.</p>
+<p class="block"><b class="calibre1">9…<span class="chessfont">♗</span>xc4 10.h4 <span class="chessfont">♖</span>e8 11.<span class="chessfont">♕</span>g3 <span class="chessfont">♕</span>e7 12.b3 <span class="chessfont">♗</span>e6 13.f4 g4 14.h5 <span class="chessfont">♕</span>c5+ 15.<span class="chessfont">♖</span>f2 <span class="chessfont">♗</span>f5</b></p>
+<p class="rights"><b class="calibre1">0-1</b></p>
+<p class="noindent1"><b class="calibre1">Conclusion:</b> In general the player with the greater number of pawn islands should place his bets on the middlegame. If pieces are exchanged, his attacking chances will be reduced and the weaknesses in his pawn formation will make themselves felt.</p>
+<div class="breakinside">
+<div class="calibre12"></div><div class="pagebreak"></div>
+<p class="rights"> </p>
+<p class="exh"><b class="calibre1">Exercises</b></p>
+<p class="rights"><b class="calibre1"><a id="rex101" href="part0030.html#ex101" class="calibre3">Exercises 10.1</a></b></p>
+<p class="image"><img src="../images/00315.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">On the basis of the ‘pawn islands rule’, we can claim that in the diagram position Black has the better prospects. Can you indicate – analogously to the example we have discussed in the text – which strategy he should pursue in order to confront White with the defects in his position? With which move would you start?</p>
+</div>
+<div class="breakinside">
+<div class="calibre12"></div><div class="pagebreak"></div>
+<p class="rights"> </p>
+<p class="rights"><b class="calibre1"><a id="rex102" href="part0030.html#ex102" class="calibre3">Exercises 10.2</a></b></p>
+<p class="image"><img src="../images/00316.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">Black has three pawn islands in the endgame against two for White, and therefore the latter is better. The question is: how should he convert this positional advantage into something more concrete?</p>
+</div>
+<div class="breakinside">
+<div class="calibre12"></div><div class="pagebreak"></div>
+<p class="rights"> </p>
+<p class="rights"><b class="calibre1"><a id="rex103" href="part0030.html#ex103" class="calibre3">Exercises 10.3</a></b></p>
+<p class="image"><img src="../images/00317.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">At first sight Black appears to have the position well under control. However, White proves that the defects in the black pawn formation are more serious than would appear superficially. With which manoeuvre does he push Black against the wall?</p>
+</div>
+<div class="breakinside">
+<div class="calibre12"></div><div class="pagebreak"></div>
+<p class="rights"> </p>
+<p class="rights"><b class="calibre1"><a id="rex104" href="part0030.html#ex104" class="calibre3">Exercises 10.4</a></b></p>
+<p class="image"><img src="../images/00318.jpeg" alt="images" class="calibre5"/></p>
+<p class="noindent">White has fewer pawn islands and he has also managed a blockade of the black centre pawns already. If we add that the black bishop pair cannot become active, the victory should be merely a matter of time. Is there no possibility at all for Black to fight back? Choose from:</p>
+<p class="indentv">A) <b class="calibre1">1…<span class="chessfont">♖</span>h5</b></p>
+<p class="indentv">B) <b class="calibre1">1…<span class="chessfont">♖</span>xf3</b></p>
+<p class="indentv">C) <b class="calibre1">1…<span class="chessfont">♖</span>c5</b>.</p>
+</div>
+</div>
+</body></html>

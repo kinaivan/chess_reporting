@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta name="dtb:uid" content="2dd09a91-949f-4e18-9ec6-c722f6732990"/>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:generator" content="calibre (5.28.0)"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Chess Strategy for Club Players: The Road to Positional Advantage (New in Chess)</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1">
+      <navLabel>
+        <text>Copyright Page</text>
+      </navLabel>
+      <content src="text/part0002.html#1T140-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="2">
+      <navLabel>
+        <text>Foreword</text>
+      </navLabel>
+      <content src="text/part0004.html#3Q280-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_3" playOrder="3">
+      <navLabel>
+        <text>Preface</text>
+      </navLabel>
+      <content src="text/part0005.html#4OIQ0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_4" playOrder="4">
+      <navLabel>
+        <text>Chapter 1: Steinitz’s Elements</text>
+      </navLabel>
+      <content src="text/part0006.html#5N3C0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_5" playOrder="5">
+      <navLabel>
+        <text>Chapter 2: The eye of the grandmaster</text>
+      </navLabel>
+      <content src="text/part0007.html#6LJU0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_6" playOrder="6">
+      <navLabel>
+        <text>Chapter 3: Thought process and line of thinking</text>
+      </navLabel>
+      <content src="text/part0008.html#7K4G0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_7" playOrder="7">
+      <navLabel>
+        <text>Chapter 4: Material advantage</text>
+      </navLabel>
+      <content src="text/part0009.html#8IL20-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_8" playOrder="8">
+      <navLabel>
+        <text>Chapter 5: Weakened king position</text>
+      </navLabel>
+      <content src="text/part0010.html#9H5K0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_9" playOrder="9">
+      <navLabel>
+        <text>Chapter 6: Passed pawn</text>
+      </navLabel>
+      <content src="text/part0011.html#AFM60-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_10" playOrder="10">
+      <navLabel>
+        <text>Chapter 7: Weak pawns</text>
+      </navLabel>
+      <content src="text/part0012.html#BE6O0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_11" playOrder="11">
+      <navLabel>
+        <text>Chapter 8: Training experiment</text>
+      </navLabel>
+      <content src="text/part0013.html#CCNA0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_12" playOrder="12">
+      <navLabel>
+        <text>Chapter 9: Strong and weak squares</text>
+      </navLabel>
+      <content src="text/part0014.html#DB7S0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_13" playOrder="13">
+      <navLabel>
+        <text>Chapter 10: The pawn islands theory</text>
+      </navLabel>
+      <content src="text/part0015.html#E9OE0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_14" playOrder="14">
+      <navLabel>
+        <text>Chapter 11: The pawn centre</text>
+      </navLabel>
+      <content src="text/part0016.html#F8900-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_15" playOrder="15">
+      <navLabel>
+        <text>Chapter 12: The diagonal</text>
+      </navLabel>
+      <content src="text/part0017.html#G6PI0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_16" playOrder="16">
+      <navLabel>
+        <text>Chapter 13: Quiz: strong square</text>
+      </navLabel>
+      <content src="text/part0018.html#H5A40-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_17" playOrder="17">
+      <navLabel>
+        <text>Chapter 14: The open file</text>
+      </navLabel>
+      <content src="text/part0019.html#I3QM0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_18" playOrder="18">
+      <navLabel>
+        <text>Chapter 15: The bishop pair</text>
+      </navLabel>
+      <content src="text/part0020.html#J2B80-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_19" playOrder="19">
+      <navLabel>
+        <text>Chapter 16: Control of a rank</text>
+      </navLabel>
+      <content src="text/part0021.html#K0RQ0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_20" playOrder="20">
+      <navLabel>
+        <text>Chapter 17: A piece out of play</text>
+      </navLabel>
+      <content src="text/part0022.html#KVCC0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_21" playOrder="21">
+      <navLabel>
+        <text>Chapter 18: Quiz: open file</text>
+      </navLabel>
+      <content src="text/part0023.html#LTSU0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_22" playOrder="22">
+      <navLabel>
+        <text>Chapter 19: Harmony and coordination</text>
+      </navLabel>
+      <content src="text/part0024.html#MSDG0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_23" playOrder="23">
+      <navLabel>
+        <text>Chapter 20: Lead in development</text>
+      </navLabel>
+      <content src="text/part0025.html#NQU20-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_24" playOrder="24">
+      <navLabel>
+        <text>Chapter 21: Centralization</text>
+      </navLabel>
+      <content src="text/part0026.html#OPEK0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_25" playOrder="25">
+      <navLabel>
+        <text>Chapter 22: Space advantage</text>
+      </navLabel>
+      <content src="text/part0027.html#PNV60-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_26" playOrder="26">
+      <navLabel>
+        <text>Chapter 23: Quiz: space advantage</text>
+      </navLabel>
+      <content src="text/part0028.html#QMFO0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_27" playOrder="27">
+      <navLabel>
+        <text>Chapter 24: Total control</text>
+      </navLabel>
+      <content src="text/part0029.html#RL0A0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_28" playOrder="28">
+      <navLabel>
+        <text>Chapter 25: Solutions</text>
+      </navLabel>
+      <content src="text/part0030.html#SJGS0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_29" playOrder="29">
+      <navLabel>
+        <text>Chapter 26: Epilogue</text>
+      </navLabel>
+      <content src="text/part0032.html#UGI00-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_30" playOrder="30">
+      <navLabel>
+        <text>Bibliography</text>
+      </navLabel>
+      <content src="text/part0033.html#VF2I0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_31" playOrder="31">
+      <navLabel>
+        <text>About the author</text>
+      </navLabel>
+      <content src="text/part0034.html#10DJ40-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+    <navPoint id="num_32" playOrder="32">
+      <navLabel>
+        <text>Index of Names</text>
+      </navLabel>
+      <content src="text/part0035.html#11C3M0-73c9380708114edd9d4424b163e2e44e"/>
+    </navPoint>
+  </navMap>
+</ncx>
