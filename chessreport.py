@@ -14,7 +14,7 @@ USERNAME = "kinaivan"
 TIME_CONTROL = "900+10"  # 15|10 in chess.com notation
 COMMENTARY_PATH = "/Users/isladonj/Documents/obsidian/obididian-main/Chess/Reports.md"
 GAMES_JSON_PATH = os.path.join(os.path.dirname(__file__), "games.json")
-FULL_REPORT_PATH = "/Users/isladonj/Documents/obsidian/obididian-main/Chess/Full_report.md"
+FULL_REPORT_PATH = "."#"/Users/isladonj/Documents/obsidian/obididian-main/Chess/Full_report.md"
 
 # Only consider games from 2026 onward when fetching from the API.
 MIN_2026_END_TIME = int(datetime(2026, 1, 1, tzinfo=timezone.utc).timestamp())
@@ -24,7 +24,8 @@ def fetch_archives(username: str) -> List[str]:
     """Return list of monthly archive URLs for a chess.com user."""
     # I did 'curl https://api.chess.com/pub/player/kinaivan/games/2026/01 | jq '.games[] | select(.time_control == "900+10")' > games.json' to get the games.json file
     url = f"https://api.chess.com/pub/player/{username}/games/archives"
-    resp = requests.get(url, timeout=10)
+    headers = {"User-Agent": "chess-reporting/1.0 (kinaivan)"}
+    resp = requests.get(url, headers=headers, timeout=10)
     resp.raise_for_status()
     data = resp.json()
     return data.get("archives", [])
@@ -41,7 +42,10 @@ def fetch_15_10_games(username: str) -> List[Dict]:
 
     for archive_url in archives:
         try:
-            resp = requests.get(archive_url, timeout=10)
+            headers = {
+                "User-Agent": "chess-reporting/1.0 (kinaivan)"
+            }
+            resp = requests.get(archive_url, headers=headers, timeout=10)
             resp.raise_for_status()
             data = resp.json()
         except Exception as e:
@@ -195,7 +199,8 @@ def fetch_15_10_games_since(username: str, since_end_time: int) -> List[Dict]:
 
     for archive_url in archives:
         try:
-            resp = requests.get(archive_url, timeout=10)
+            headers = {"User-Agent": "chess-reporting/1.0 (kinaivan)"}
+            resp = requests.get(archive_url, headers=headers, timeout=10)
             resp.raise_for_status()
             data = resp.json()
         except Exception as e:
@@ -646,13 +651,13 @@ if __name__ == "__main__":
 
     if fetch_flag:
         # Update games.json with any new games from the API.
-        new_count, previous_count = update_games_json(USERNAME, GAMES_JSON_PATH)
+        new_count, previous_count = update_games_json("kinaivan", "./games.json")
         if new_count == 0:
             print("No new games fetched from the API.")
 
     # In all cases, make sure Full_report.md has entries for every game
     # in games.json, without duplicating existing game sections.
-    append_new_games_to_full_report(USERNAME)
+    append_new_games_to_full_report("kinaivan")
 
     # Copy the report into the current folder and push it to GitHub.
     copy_and_push_full_report()
