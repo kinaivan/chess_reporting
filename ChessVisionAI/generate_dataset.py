@@ -27,7 +27,7 @@ backgrounds = ["dataset/squares/square_0_1.png", "dataset/squares/square_0_2.png
 training_data_dir = "dataset/training"
 test_data_dir = "dataset/test"
 squares_dir = "dataset/squares"
-num_images = 2_000  # Images to generate per piece (reduced for memory)
+num_images = 10_000  # Images to generate per piece
 
 # Create directories
 os.makedirs(training_data_dir, exist_ok=True)
